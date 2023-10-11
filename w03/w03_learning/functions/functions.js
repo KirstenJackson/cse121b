@@ -14,7 +14,7 @@ function fullName(first, last) {
 // };
 // console.log(fullName(firstName, lastName));
 
-
+ 
 // arrow function expression
 const afullName = (first, last) => `${first} ${last}`;
 // console.log(afullName(firstName, lastName));
