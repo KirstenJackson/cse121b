@@ -17,14 +17,14 @@ document.querySelector('#addNumbers').addEventListener('click', addNumbers);
 
 
 /* Function Expression - Subtract Numbers */
-function subtract(number1, number2) {
-    return number1 - number2;
+function subtract(subtract1, subtract2) {
+    return subtract1 - subtract2;
 }
 
 function subtractNumbers() {
-    let subNumber1 = Number(document.querySelector('#subtract1').value);
-    let subNumber2 = Number(document.querySelector('#subtract2').value);
-    document.querySelector('#difference').value = subtract(subNumber1, subNumber2);
+    let subtract1 = Number(document.querySelector('#subtract1').value);
+    let subtract2 = Number(document.querySelector('#subtract2').value);
+    document.querySelector('#difference').value = subtract(subtract1, subtract2);
 }
 
 document.querySelector('#subtractNumbers').addEventListener('click', subtractNumbers);
@@ -94,5 +94,8 @@ Use the map() and reduce() array methods to sum the array elements
 after multiplying each element by two. 
 Assign the result to the HTML element with an ID of sumOfMultiplied.
 */
+numsMult = nums.map((num) => num * 2);
+numsSum = numsMult.reduce((accumulator, currentValue) => accumulator + currentValue);
+document.querySelector("#sumOfMultiplied").innerHTML = numsSum;
 
 
