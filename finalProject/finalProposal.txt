@@ -1,0 +1,10 @@
+WDD 130 Final Website
+
+For my application project, I want to add JavaScript functionality to the final website I made for wdd130. 
+It's a Star Wars themed website, so I would use the https://swapi.dev API to retrieve information about Star Wars films. 
+The index page of my website has a films box that I will connect to a films page where users can click to retrieve information. 
+
+
+
+
+
