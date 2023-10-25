@@ -231,6 +231,8 @@ Add the text in to the page, then we can use CSS to hide the text box until the 
   text-decoration: none;
 }
 
+
+/*darsaber page*/
 .darksaber-list {
   padding-top: 0rem;
   padding-bottom: 0rem;
@@ -278,6 +280,24 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
+
+/*films page*/
+/*crawl title*/
+
+#crawl {
+  font-family: 'droid_sans_monoregular';
+  font-size: smaller;
+  text-decoration: none;
+  padding-left: 35rem;
+  padding-right: 35rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-indent: none;
+  color: rgb(231, 231, 38);
+  background-color: black;
+  background-clip:border-box;
+}
+
 
 
 

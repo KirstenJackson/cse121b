@@ -44,7 +44,7 @@ document.querySelector('#multiplyNumbers').addEventListener('click', multiplyNum
 
 /* Open Function Use - Divide Numbers */
 let divide = (number1, number2) => number1 / number2;
-
+ 
 let divideNumbers = () => {
     let dividend = Number(document.querySelector('#dividend').value);
     let divisor = Number(document.querySelector('#divisor').value);

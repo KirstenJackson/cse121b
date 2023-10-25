@@ -1,0 +1,45 @@
+Project Requirements
+
+The target scope and time commitment is about 3 hours.
+
+
+
+to do 
+w05 tasks for select thingy
+add user input with click and dom stuff on films page 
+have user click be the input for which opening crawl they want to see on films page 
+
+
+notes
+The movies are numbered in order of release. So /1/ is episode 4
+
+done 
+had trouble turning picture into button
+used stack overflow to fix that by wrapping it in <a/> tag
+
+added obi wan banner to films page 
+
+got the opening crawl for episode 1
+added css to opening crawl so it's not so big and edges are good
+
+Project must be a JavaScript application that is hosted and rendered by GitHub Pages.
+The project must consume external data using Fetch and where the data is delivered in JSON format be that through a third-party API or your own data source.
+
+Must interact with the DOM of an HTML document. appendChild see dom-basics.js from w02 
+
+
+23 oct
+made Fetch.js module and made list of urls
+moved the functions I want to modify into Fetch.js
+changed the doStuff function in Fetch.js to take parameter - next modify movies list
+Include conditional branching. see operators.js from w03
+
+
+24 oct
+modified movies list to use doStuff function to get title and opening crawl
+added button to films page
+Use ES modules. see Course.js and modules.js from w05 
+Use an array and at least one array method. see w03-task.js array methods functional programming and w03 arrays.js array_practice.js
+Exclusively use template literals when building strings. Course.js 
+
+

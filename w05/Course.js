@@ -9,7 +9,7 @@ const aCourse = {
         enrolled: 26,
         days: "TTh",
         instructor: "Bro T",
-      },
+      }, 
       {
         sectionNum: 2,
         roomNum: "STC 347",

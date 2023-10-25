@@ -11,8 +11,9 @@ const displayTemples = (temples) => {
         // Create an HTML <article> element (createElement).
         let article = document.createElement("article");
         // Create an HTML <h3> element and add the temple's templeName property to this new element.
-        let h3 = document.createElement("h3");
-        document.querySelector("#h3").innerHTML = temple.templeName;
+        // let h3 = 
+        // let templeName = document.createElement("h3");
+        // document.querySelector("#h3").innerHTML = temple.templeName;
         // document.querySelector("#h3").innerHTML = templeName;
         // Create an HTML <img> element and 
         let image = document.createElement("img");
@@ -21,7 +22,7 @@ const displayTemples = (temples) => {
         document.querySelector("#img").setAttribute("alt", location);
 
         // Append the <h3> element and the <img> element to the <article> element as children. (appendChild) 
-        document.article.appendChild(h3);
+        document.article.appendChild(article);
         document.article.appendChild(image);
 
         // Append the <article> element to the global templesElement variable declared in Step 2. 
@@ -41,7 +42,7 @@ const getTemples = async () => {
     }
 }
 
-
+ 
 /* reset Function */
 const reset = () => {
     document.getElementById("#temples").innerHTML = "";
@@ -57,7 +58,7 @@ const sortBy = (temples) => {
             displayTemples(temples.filter(temple => temple.location.includes("Utah")));
             break;
         
-        case nonUtah:
+        case nonutah:
             displayTemples(temples.filter(temple => !(temple.location.includes("Utah"))));
             break;
         
@@ -66,10 +67,13 @@ const sortBy = (temples) => {
             break;
         
         default:
-            displayTemples(temples.filter(temple));
+            displayTemples(temples.filter());
         }
 }
-
+/*case 'nonutah':
+const nonUtahTemples = temples.filter((temple) => !temple.location.includes("Utah"));
+displayTemples(nonUtahTemples);
+break; */
 
 
 /* Event Listener */
